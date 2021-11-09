@@ -1,0 +1,234 @@
+*{
+	color: #fff;
+	font-family: font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+
+}
+
+body{
+	background-color: #03bfa3ff;
+	font-size: 16px;
+}
+
+.black{
+	color: #000 !important; 
+}
+
+/***HEADER***/
+
+#logo-img{
+	background: url('../pictures/images/logo_lg.png') no-repeat;
+	width: 10vw;
+	height: 20vh;
+	background-size: contain;
+	margin: 10px 15px 10px 0;
+}
+
+#header-nav{
+	background-color: #03bfa3ff;
+	border: 0;
+	height: 20vh;
+	margin: 0;
+}
+
+a > h1{
+	color: #fff;
+	font-weight: 200;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
+}
+
+#nav-list{
+	z-index: 10;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > .active > a:hover{
+	background-color: transparent;
+}
+
+/***END HEADER***/
+
+/***MAIN***/
+#main-content{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 80vh;
+	position: relative;
+	overflow: hidden;
+}
+
+
+#foto{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: auto;
+	max-height: 80vh;
+	float: right;
+}
+
+#maxim{
+	font-size: 60px;
+	font-weight: 200;
+	top: 30vh;
+	left: 100px;
+	position: relative;
+	float: left;
+}
+
+/***END MAIN***/
+
+/***PROMO MENU***/
+
+.promoitem{
+	height: 200px;
+	margin: 70px 100px 70px 100px;
+}
+
+.promotext{
+	margin: 40px 20px 0 20px;
+}
+
+#youtube .promotext > *,#coding .promotext > *{
+	color: #000;
+	text-align: left;
+}
+
+#cordial .promotext > *,#kontakt .promotext > *{
+	text-align: right;
+	margin-right: 60px;
+}
+
+#youtube{
+	background-color: #fff;
+	width: 100%;
+	margin: 0;
+}
+
+#cordial{
+	background-color: #2d2d2dff;
+	width: 100%;
+	margin: 0;
+}
+
+#audiocontent{
+	background-color: #bf6f00ff;
+	width: 100%;
+	margin: 0;
+}
+
+#kontakt{
+	background-color: #005ebfff;
+	width: 100%;
+	margin: 0;
+}
+
+#coding{
+	background-color: #bcbf00ff;
+	width: 100%;
+	margin: 0;
+}
+
+/***END PROMO MENU***/
+
+/***FOOTER***/
+.panel-footer{
+	background-color: #03bfa3ff;
+	border: 0;
+}
+/***END FOOTER***/
+
+/***MENU***/
+.col{
+	width: 20vw;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 30px;
+}
+
+.menubox{
+	height: 70vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.bckgnd{
+	height: 100%;
+}
+
+#youtubemenu{
+	background-image: url('../pictures/images/menuitem_youtube_lg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-color: #fff;
+	height: 100%;
+}
+
+#cordialmenu{
+	background-image: url('../pictures/images/logo cordial facebook.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-color: #000;
+}
+
+#audiocontentmenu{
+	background-image: url('../pictures/images/menuitem_content_lg.png');
+}
+
+#kontaktmenu{
+	background-image: url('../pictures/images/menuitem_kontakt_lg.png');
+}
+
+#codingmenu{
+	background-image: url('../pictures/images/menuitem_coding_lg.png');
+}
+
+#category{
+	color: #fff;
+	line-height: 40px;
+	width: 100% 100%;
+	background-color: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 70%;
+	width: 100%;
+}
+
+.menubox:hover{
+	height: 80vh;
+	transform:translateY(-50px);
+	transition: .2s;
+}
+
+.menubox:hover > .bckgnd{
+	filter: blur(3px);
+	transition: .2s;
+}
+
+.menubox:hover > div{
+	visibility: visible;
+}
+
+
+
+
+
+
+
+
+/***END MENU***/
